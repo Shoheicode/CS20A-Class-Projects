@@ -1,44 +1,145 @@
 ﻿  main.cpp
-C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(208,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(48,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(51,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(54,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'main.cpp')
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1928,29): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
   (compiling source file 'main.cpp')
   C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
   see declaration of 'operator new'
-  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(208,24):
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1929,31): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1930,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1987,29): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1988,31): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1989,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(2025,29): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(2026,31): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(2027,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(127,25): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(127,25):
   the template instantiation context (the oldest one first) is
-  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\main.cpp(19,24):
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(90,25):
   	see reference to class template instantiation 'DLList<int>' being compiled
-  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(204,47):
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(116,49):
+  	while compiling class template member function 'DLList<int>::DLList(const DLList<int> &)'
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1661,19):
+  		see the first reference to 'DLList<int>::DLList' in 'test_copyCtor'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(134,25): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(175,26): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(175,26):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(155,66):
+  	while compiling class template member function 'DLList<int> &DLList<int>::operator =(const DLList<int> &)'
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(1795,6):
+  		see the first reference to 'DLList<int>::operator =' in 'test_assgnOper'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(182,26): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(263,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(263,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(259,47):
   	while compiling class template member function 'void DLList<int>::add_front(const Item &)'
           with
           [
               Item=int
           ]
-  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\main.cpp(23,14):
-  		see the first reference to 'DLList<int>::add_front' in 'main'
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(146,15):
+  		see the first reference to 'DLList<int>::add_front' in 'test_add_front'
   
-C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(214,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(269,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
   (compiling source file 'main.cpp')
   C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
   see declaration of 'operator new'
   
-C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(235,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(290,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
   (compiling source file 'main.cpp')
   C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
   see declaration of 'operator new'
-  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(235,24):
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(290,24):
   the template instantiation context (the oldest one first) is
-  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(231,46):
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(286,46):
   	while compiling class template member function 'void DLList<int>::add_rear(const Item &)'
           with
           [
               Item=int
           ]
-  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\main.cpp(21,13):
-  		see the first reference to 'DLList<int>::add_rear' in 'main'
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(219,14):
+  		see the first reference to 'DLList<int>::add_rear' in 'test_add_rear'
   
-C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(241,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(296,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
   (compiling source file 'main.cpp')
   C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
   see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(335,33): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(335,33):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\dllist.h(312,50):
+  	while compiling class template member function 'void DLList<int>::add(int,const Item &)'
+          with
+          [
+              Item=int
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\CS20A Project 3\listtests.h(291,9):
+  		see the first reference to 'DLList<int>::add' in 'test_add'
   
   CS20A Project 3.vcxproj -> C:\Users\jsiri\CS20A-Class-Projects\CS20A Project 3\x64\Debug\CS20A Project 3.exe

@@ -118,35 +118,85 @@ DLList<Item>::DLList(const DLList<Item>& other) {
 	/*   TODO   */
 	count = other.count;
 
-	Node a = other.head;
-	Node temp = nullptr;
-	Node tempPrev;
+	Node* a = other.head;
+	Node* temp = nullptr;
+	Node* tempPrev = nullptr;
 
 	while (a != nullptr) {
 		if (head == nullptr) {
-			head = new Node();
-			head->itm = a->itm;
-			head->next = temp;
+			head = DEBUG_NEW Node();
+			head->itm(a->itm());
+			head->nxt(temp);
 			tempPrev = head;
 		}
 		else {
-			temp = new Node();
-			temp->itm = a->itm;
+			std::cout << "STUCK HERE" << std::endl;
+			temp = DEBUG_NEW Node(a->itm(), tempPrev, nullptr);
+			tempPrev->nxt(temp);
 
-			temp->next = nullptr;
-			temp->prev = tempPrev;
-			tempPrev = a;
-			temp = temp->next;
+			if (a->nxt() == nullptr) {
+				std::cout << "HIHIHI" << std::endl;
+				tail = temp;
+				std::cout << tail->itm() << std::endl;
+				break;
+			}
+
+			tempPrev = temp;
+			temp = temp->nxt();
 		}
-		a = a->next;
+		a = a->nxt();
 	}
-
+	std::cout << "HIHIHI" << std::endl;
 
 }
 /* Overloaded assignment operator
 */
 template<typename Item>
 DLList<Item>& DLList<Item>::operator=(const DLList<Item>& other) {
+
+	if (this != &other) {
+		//delete the lists
+		Node* tempNode = head;
+
+		while (tempNode != nullptr) {
+			Node* bye = tempNode;
+			tempNode = tempNode->nxt();
+			delete bye;
+		}
+
+		count = other.count;
+
+		Node* a = other.head;
+		Node* temp = nullptr;
+		Node* tempPrev = nullptr;
+
+		while (a != nullptr) {
+			if (head == nullptr) {
+				head = DEBUG_NEW Node();
+				head->itm(a->itm());
+				head->nxt(temp);
+				tempPrev = head;
+			}
+			else {
+				std::cout << "STUCK HERE" << std::endl;
+				temp = DEBUG_NEW Node(a->itm(), tempPrev, nullptr);
+				tempPrev->nxt(temp);
+
+				if (a->nxt() == nullptr) {
+					std::cout << "HIHIHI" << std::endl;
+					tail = temp;
+					std::cout << tail->itm() << std::endl;
+					break;
+				}
+
+				tempPrev = temp;
+				temp = temp->nxt();
+			}
+			a = a->nxt();
+		}
+		
+		
+	}
 
 	/*   TODO   */
 	return *this;
@@ -179,7 +229,12 @@ void DLList<Item>::print() const {
 	Node* printNode = head;
 
 	while (printNode != nullptr) {
-		std::cout << printNode->itm() << " ";
+		if (head == printNode) {
+			std::cout << printNode->itm();
+		}
+		else {
+			std::cout << " " << printNode->itm();
+		}
 		printNode = printNode->nxt();
 	}
 
@@ -192,9 +247,9 @@ bool DLList<Item>::empty() const {
 
 	/*   TODO   */
 	if(count > 0){
-		return true;
+		return false;
 	}
-	return false;
+	return true;
 }
 
 
@@ -257,7 +312,14 @@ template<typename Item>
 void DLList<Item>::add(int idx, const Item &itm) {
 
 	/*   TODO   */
-	if (idx < 0) {
+	if (head == nullptr) {
+		head = new Node(itm, nullptr, nullptr);
+		tail = head;
+		count++;
+		return;
+	}
+
+	if (idx <= 0) {
 		add_front(itm);
 	}
 	else if (idx > count) {
@@ -270,10 +332,11 @@ void DLList<Item>::add(int idx, const Item &itm) {
 			temp = temp->nxt();
 			i++;
 		}
-		Node* newNode = new Node(itm, temp->prv(), temp);
+		Node* newNode = DEBUG_NEW Node(itm, temp->prv(), temp);
 
 		temp->prv()->nxt(newNode);
 		temp->prv(newNode);
+		count++;
 	}
 
 }
@@ -291,7 +354,8 @@ Item DLList<Item>::front() const {
 		return head->itm();
 	}
 	else {
-		return 1;
+		Item retval{};
+		return retval;
 	}
 
 	/*   TODO   */
@@ -314,7 +378,8 @@ Item DLList<Item>::rear() const {
 		return tail->itm();
 	}
 	else {
-		return 1;
+		Item retval{};
+		return retval;
 	}
 
 	/*   TODO   */
@@ -359,15 +424,13 @@ int DLList<Item>::items(const Item &itm) const {
 	/*   TODO   */
 	int countItems = 0;
 	Node* temp = head;
-	while (temp != nullptr;) {
+	while (temp != nullptr) {
+		if (temp->itm() == itm) {
+			countItems++;
+		}
 		temp = temp->nxt();
-		i++;
 	}
-	Node* newNode = new Node(itm, temp->prv(), temp);
-
-	temp->prv()->nxt(newNode);
-	temp->prv(newNode);
-	return retval;
+	return countItems;
 
 }
 /* DLList search
@@ -375,9 +438,20 @@ int DLList<Item>::items(const Item &itm) const {
 template<typename Item>
 int DLList<Item>::search(const Item &itm) const {
 
-	/*   TODO   */
-	int retval = 8675309;
-	return retval;
+	Node* temp = head;
+	int index = 0;
+	while (temp != nullptr) {
+
+		if (temp->itm() == itm) {
+			return index;
+		}
+
+		index++;
+		
+		temp = temp->nxt();
+	}
+	return -42;
+
 }
 
 /* DLList remove_front
@@ -386,17 +460,52 @@ template<typename Item>
 bool DLList<Item>::remove_front() {
 
 	/*   TODO   */
-	bool retval = false;
-	return retval;
+	if (head == nullptr) {
+		return false;
+	}
+	else {
+		if (head->nxt() == nullptr) {
+			delete head;
+			count--;
+			head = nullptr;
+			tail = nullptr;
+			return true;
+		}
+		Node* temp = head;
+		head = head->nxt();
+		head->prv(nullptr);
+
+		delete temp;
+		count--;
+	}
+	
+	return true;
 }
 /* DLList remove_rear
 */
 template<typename Item>
 bool DLList<Item>::remove_rear() {
 
-	/*   TODO   */
-	bool retval = false;
-	return retval;
+	if (tail == nullptr) {
+		return false;
+	}
+	else {
+		if (tail->prv() == nullptr) {
+			delete tail;
+			count--;
+			head = nullptr;
+			tail = nullptr;
+			return true;
+		}
+		Node* temp = tail;
+		tail = tail->prv();
+		tail->nxt(nullptr);
+
+		delete temp;
+		count--;
+	}
+
+	return true;
 }
 
 /* DLList remove_index
@@ -404,10 +513,40 @@ bool DLList<Item>::remove_rear() {
 template<typename Item>
 bool DLList<Item>::remove_index(int idx) {
 
-	/*   TODO   */
+	if (idx > count || idx < 0) {
+		return false;
+	}
 
-	bool retval = false;
-	return retval;
+	if (head->nxt() == nullptr && head->prv() == nullptr && count == 1) {
+		delete head;
+		count--;
+		head = nullptr;
+		tail = nullptr;
+		return true;
+	}
+
+	int i = 0;
+	Node* temp = head;
+	while (i != idx) {
+		temp = temp->nxt();
+		i++;
+	}
+	if (i == 0) {
+		remove_front();
+		return true;
+	}
+	if (i == count - 1) {
+		remove_rear();
+		return true;
+	}
+
+	//makes the next and previous nodes connect
+	temp->prv()->nxt(temp->nxt());
+	temp->nxt()->prv(temp->prv());
+	delete temp;
+	count--;
+
+	return true;
 
 }
 
@@ -416,9 +555,36 @@ bool DLList<Item>::remove_index(int idx) {
 template<typename Item>
 int DLList<Item>::remove_item(const Item &itm) {
 
-	/*   TODO   */
-	int retval = 9000;
-	return retval;
+	std::cout << "REMOVING items\n";
+	Node* temp = head;
+	int index = 0;
+	while (temp != nullptr) {
+
+		if (temp->itm() == itm) {
+			if (temp == head) {
+				remove_front();
+				std::cout << "REMOVING FROM FRONT\n";
+				return 0;
+			}
+			if (temp == tail) {
+				remove_rear();
+				return index;
+			}
+			std::cout << "HIHIHI" << std::endl;
+			temp->prv()->nxt(temp->nxt());
+			temp->nxt()->prv(temp->prv());
+			delete temp;
+			count--;
+			return index;
+		}
+
+		index++;
+		
+		temp = temp->nxt();
+	}
+	std::cout << "END OF REMOVE" << std::endl;
+
+	return -42;
 
 }
 
@@ -428,8 +594,34 @@ template<typename Item>
 bool DLList<Item>::sub_list(const DLList<Item>& sub) {
 	
 	/*   TODO   */
-	bool retval = true;
-	return retval;
+	Node* temp1 = head;
+	Node* subTemp = sub.head;
+	int count = 0;
+
+	if (subTemp == nullptr) {
+		return true;
+	}
+	if (temp1 == nullptr) {
+		return false;
+	}
+
+	while (subTemp != nullptr && temp1 != nullptr) {
+		if (subTemp->itm() == temp1->itm()) {
+			std::cout << "HIHIH" << std::endl;
+			count++;
+			if (count == sub.size()) {
+				return true;
+			}
+			subTemp = subTemp->nxt();
+			continue;
+		}
+		else {
+			count = 0;
+			subTemp = sub.head;
+		}
+		temp1 = temp1->nxt();
+	}
+	return false;
 }
 
 #endif

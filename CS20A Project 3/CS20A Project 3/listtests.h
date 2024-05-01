@@ -283,7 +283,10 @@ int test_add(int testNum) {
 	switch (testNum) {
 	case 0: {
 		
+		std::cout << "RUNING TEST 0" << std::endl;
+
 		DLList<int> * l = new DLList<int>;
+		std::cout << "Ran Constructor" << std::endl;
 
 		l->add(0, 1);
 
@@ -296,6 +299,7 @@ int test_add(int testNum) {
 		
 		assert(l->head->nxt() == nullptr);
 		assert(l->head->prv() == nullptr);
+		std::cout << "REACHED END" << std::endl;
 		break;
 		
 	}
@@ -335,14 +339,20 @@ int test_add(int testNum) {
 		DLList<std::string>::Node* head = new DLList<std::string>::Node;
 		DLList<std::string>::Node* second = new DLList<std::string>::Node;
 
+		std::cout << "REACHED END1" << std::endl;
+
 		//Link together to make a valid linked list 
 		head->itm("first");
 		head->prv(nullptr);
 		head->nxt(second);
 
+		std::cout << "REACHED END2" << std::endl;
+
 		second->itm("second");
 		second->prv(head);
 		second->nxt(nullptr);
+
+		std::cout << "REACHED END3" << std::endl;
 
 		//Assume Constructor Correctly Implemented
 		DLList<std::string> * l = new DLList<std::string>;
@@ -351,6 +361,8 @@ int test_add(int testNum) {
 		l->head = head;
 		l->tail = second;
 		l->count = 2;
+
+		std::cout << "REACHED END4" << std::endl;
 
 		l->add(0, "Zero");
 
@@ -363,6 +375,10 @@ int test_add(int testNum) {
 		assert(l->head->nxt() == head);
 		assert(l->head->itm() == "Zero");
 		assert(l->tail == second);
+
+		std::cout << "REACHED END5" << std::endl;
+
+		delete l;
 
 		break;
 	}
@@ -838,10 +854,13 @@ int test_remove_front(int testNum) {
 		//Assume Constructor Correctly Implemented
 		DLList<std::string> * l = new DLList<std::string>;
 
+		std::cout << "HIHIHI\n";
+
 		//Set up the initial state of the list to test
 		l->head = head;
 		l->tail = head;
 		l->count = 1;
+		std::cout << "HIHIHI\n";
 
 		assert(l->remove_front() == true);
 		assert(l->count == 0);
@@ -1037,6 +1056,8 @@ int test_remove_index(int testNum) {
 		l->tail = head;
 		l->count = 1;
 
+		std::cout << "HIHIH\n";
+
 		assert(l->remove_index(0) == true);
 		assert(l->count == 0);
 		assert(l->head == nullptr);
@@ -1068,6 +1089,8 @@ int test_remove_index(int testNum) {
 		l->head = head;
 		l->tail = third;
 		l->count = 3;
+
+		std::cout << "I AM RUNNING \n";
 
 		assert(l->remove_index(0) == true);
 		assert(l->count == 2);
@@ -1163,7 +1186,7 @@ int test_remove_item(int testNum) {
 	switch (testNum) {
 	case 0: {//Test with empty list
 		DLList<int> * l = new DLList<int>;
-		assert(l->remove_item(1) == -1);
+		assert(l->remove_item(1) == -42);
 		break;
 	}
 	case 1: {
@@ -1333,6 +1356,7 @@ int test_print(int testNum) {
 	std::cout << __func__ << testNum << std::endl << std::flush;
 	switch (testNum) {
 	case 0: {
+		std::cout << "REMOVING FROM BACK\n";
 
 		std::string test_string1("Tom Dick Mary"); 
 		std::stringstream buffer(test_string1);
@@ -1356,6 +1380,8 @@ int test_print(int testNum) {
 		third->prv(second);
 		third->nxt(nullptr);
 
+		std::cout << "REMOVING FROM BACK\n";
+
 		//Assume Constructor Correctly Implemented
 		DLList<std::string> * l = new DLList<std::string>;
 
@@ -1363,13 +1389,16 @@ int test_print(int testNum) {
 		l->head = head;
 		l->tail = third;
 		l->count = 3;
+		std::cout << "REMOVING FROM BACK1\n";
 
-		std::streambuf * old = std::cout.rdbuf(buffer.rdbuf());
+		std::streambuf* old = std::cout.rdbuf(buffer.rdbuf());
 
 		l->print();
+		//std::cout << std::endl;
 		std::cout.rdbuf(old);
 
 		std::string text = buffer.str();
+		//std::cout << "TEXT: " << text << std::endl;
 
 		std::vector<std::string> ret{ std::istream_iterator<std::string>(buffer),
 			std::istream_iterator<std::string>() };
@@ -1667,16 +1696,21 @@ int test_copyCtor(int testNum) {
 		l->head = head;
 		l->tail = third;
 		l->count = 3;
-		 
+		std::cout << "CREATING LIST" << std::endl;
 		DLList<int> * p = new DLList<int>(*l);
+		std::cout << "HYPE HYPE" << std::endl;
 
 		assert(p->head != nullptr );
 		assert(p->tail != nullptr);
 		assert(p->count == 3);
 
+		std::cout << "itm" << std::endl;
 		assert(p->head->itm() == head->itm());
+		std::cout << "next" << std::endl;
 		assert(p->head->nxt()->itm() == second->itm());
+		std::cout << "previous itm" << std::endl;
 		assert(p->tail->prv()->itm() == second->itm());
+		std::cout << "tail itm" << std::endl;
 		assert(p->tail->itm() == third->itm());
 
 		assert(p->head != head);

@@ -1,6 +1,6 @@
 
 // Choose which run to compile
-#define RUN0 //RUN1 RUN2 RUN3
+#define RUN4 //RUN1 RUN2 RUN3
 
 
 
@@ -26,10 +26,9 @@ int main() {
 	std::cout << l->front() << std::endl;
 	l->add_front(42);
 	l->add(6, 2);
-	//std::cout << l->peek(3) << std::endl;
+	std::cout << l->peek(3) << std::endl;
 	l->print();
-	/*l->remove_rear();
-	std::cout << l->rear() << std::endl;*/
+	std::cout << std::endl;
 
 	delete l;
 
@@ -171,7 +170,10 @@ int main() {
 
 int main() {
 
-	test_add(0);
+	//test_add(6);
+	for (int i = 0; i < 10; i++) {
+		test_sub_list(i);
+	}
 	//...
 
 	return 0;
