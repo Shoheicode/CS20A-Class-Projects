@@ -1,0 +1,4 @@
+﻿  main.cpp
+  simulation.cpp
+C:\Users\jsiri\source\repos\Project1CS20A\Project1CS20A\main.cpp(49,9): error C2079: 'm' uses undefined class 'Matrix'
+  Generating Code...
