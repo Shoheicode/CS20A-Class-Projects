@@ -171,7 +171,7 @@ int main() {
 int main() {
 
 	//test_add(6);
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 20; i++) {
 		test_sub_list(i);
 	}
 	//...

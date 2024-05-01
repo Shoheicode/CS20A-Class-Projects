@@ -398,13 +398,16 @@ Item DLList<Item>::peek(int idx) const {
 	// exceptions, since we haven't covered that yet
 	// we'll make due with assert, which is used for testing
 	//assert(idx >= 0 && idx < count);
-
+	std::cout << "RUNNING PEEK" << std::endl;
 	/*   TODO   */
 	int i = 0;
 	Node* temp = head;
 	while (i != idx) {
 		temp = temp->nxt();
 		i++;
+		if (temp == nullptr) {
+			return NULL;
+		}
 	}
 
 	return temp->itm();
@@ -592,36 +595,39 @@ int DLList<Item>::remove_item(const Item &itm) {
 */
 template<typename Item>
 bool DLList<Item>::sub_list(const DLList<Item>& sub) {
-	
-	/*   TODO   */
-	Node* temp1 = head;
-	Node* subTemp = sub.head;
-	int count = 0;
 
-	if (subTemp == nullptr) {
+	if (sub.count == 0) {
 		return true;
 	}
-	if (temp1 == nullptr) {
-		return false;
-	}
 
-	while (subTemp != nullptr && temp1 != nullptr) {
-		if (subTemp->itm() == temp1->itm()) {
-			std::cout << "HIHIH" << std::endl;
-			count++;
-			if (count == sub.size()) {
+	int number = 0;
+	/*Node* temp1 = head;
+	Node* subTemp = sub.head;*/
+	int index = 0;
+	for (int i = 0; i < count; i++) {
+		std::cout << i << std::endl;
+		if (peek(i) == sub.peek(index)) {
+			index++;
+			number++;
+			if (number == sub.count) {
 				return true;
 			}
-			subTemp = subTemp->nxt();
-			continue;
 		}
 		else {
-			count = 0;
-			subTemp = sub.head;
+			number = 0;
+			index = 0;
+			if (peek(i) == sub.peek(index)) {
+				index++;
+				number++;
+				if (number == sub.count) {
+					return true;
+				}
+			}
 		}
-		temp1 = temp1->nxt();
 	}
+
 	return false;
+
 }
 
 #endif

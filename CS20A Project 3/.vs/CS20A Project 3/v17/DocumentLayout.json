@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|solutionrelative:CS20A Project 3\\listtests.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\studentinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|solutionrelative:CS20A Project 3\\studentinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|solutionrelative:CS20A Project 3\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\studentinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|solutionrelative:CS20A Project 3\\studentinfo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06F5C73A-AB93-4170-8CFB-1497339E9B5D}|CS20A Project 3\\CS20A Project 3.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\memorymanager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "CS20A Project 3\\dllist.h",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\dllist.h",
               "RelativeToolTip": "CS20A Project 3\\dllist.h",
-              "ViewState": "AQIAAFkCAAAAAAAAAAAswGYCAAAcAAAA",
+              "ViewState": "AQIAAGMCAAAAAAAAAAAAAFwCAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-01T05:00:20.614Z",
               "EditorCaption": ""
@@ -57,14 +57,14 @@
               "RelativeDocumentMoniker": "CS20A Project 3\\listtests.h",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\listtests.h",
               "RelativeToolTip": "CS20A Project 3\\listtests.h",
-              "ViewState": "AQIAAL8IAAAAAAAAAAAAAH8HAAAAAAAA",
+              "ViewState": "AQIAAAUKAAAAAAAAAAAAAG0JAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-01T05:57:29.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "studentinfo.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\studentinfo.h",
               "RelativeDocumentMoniker": "CS20A Project 3\\studentinfo.h",
@@ -103,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\main.cpp",
               "RelativeDocumentMoniker": "CS20A Project 3\\main.cpp",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20A Project 3\\CS20A Project 3\\main.cpp",
               "RelativeToolTip": "CS20A Project 3\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK4AAAATAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAK0AAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-01T04:56:31.218Z",
               "EditorCaption": ""
