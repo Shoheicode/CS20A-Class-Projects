@@ -1,0 +1,124 @@
+﻿  entity.cpp
+  game.cpp
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\game.cpp(35,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(263,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(263,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\main.cpp(15,21):
+  	see reference to class template instantiation 'Stack<std::string>' being compiled
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\stack.h(39,21):
+  	while compiling class template member function 'Stack<std::string>::Stack(void)'
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\main.cpp(15,21):
+  		see the first reference to 'Stack<std::string>::Stack' in 'main'
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(259,47):
+  	while compiling class template member function 'void DLList<Type>::add_front(const Item &)'
+          with
+          [
+              Type=std::string,
+              Item=std::string
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\stack.h(45,16):
+  		see the first reference to 'DLList<Type>::add_front' in 'Stack<std::string>::push'
+          with
+          [
+              Type=std::string
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\main.cpp(18,12):
+  		see the first reference to 'Stack<std::string>::push' in 'main'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(269,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(290,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(290,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(286,46):
+  	while compiling class template member function 'void DLList<Type>::add_rear(const Item &)'
+          with
+          [
+              Type=std::string,
+              Item=std::string
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\queue.h(45,15):
+  		see the first reference to 'DLList<Type>::add_rear' in 'Queue<std::string>::enqueue'
+          with
+          [
+              Type=std::string
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\main.cpp(27,15):
+  		see the first reference to 'Queue<std::string>::enqueue' in 'main'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(296,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'main.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+  maze.cpp
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(263,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'maze.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(263,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\maze.h(43,15):
+  	see reference to class template instantiation 'DLList<Room>' being compiled
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(259,47):
+  	while compiling class template member function 'void DLList<Room>::add_front(const Item &)'
+          with
+          [
+              Item=Room
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\maze.cpp(62,26):
+  		see the first reference to 'DLList<Room>::add_front' in 'Maze::Maze'
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(269,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'maze.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+  player.cpp
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(263,24): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'player.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(263,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\player.h(36,14):
+  	see reference to class template instantiation 'Stack<Room>' being compiled
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\stack.h(29,15):
+  	see reference to class template instantiation 'DLList<Type>' being compiled
+          with
+          [
+              Type=Room
+          ]
+  	C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(259,47):
+  	while compiling class template member function 'void DLList<Type>::add_front(const Item &)'
+          with
+          [
+              Type=Room,
+              Item=Room
+          ]
+  		C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\player.cpp(20,29):
+  		see the first reference to 'DLList<Type>::add_front' in 'Player::Player'
+          with
+          [
+              Type=Room
+          ]
+  
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\dllist.h(269,30): warning C4291: 'void *operator new(size_t,const char *,const char *,int)': no matching operator delete found; memory will not be freed if initialization throws an exception
+  (compiling source file 'player.cpp')
+  C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\CS20AProject4\memorymanager.h(12,7):
+  see declaration of 'operator new'
+  
+  shark.cpp
+  Generating Code...
+  CS20AProject4.vcxproj -> C:\Users\jsiri\CS20A-Class-Projects\CS20AProject4\x64\Debug\CS20AProject4.exe

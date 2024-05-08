@@ -127,10 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="debugmem.h" />
     <ClInclude Include="dllist.h" />
     <ClInclude Include="entity.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="maze.h" />
+    <ClInclude Include="memorymanager.h" />
     <ClInclude Include="player.h" />
     <ClInclude Include="queue.h" />
     <ClInclude Include="room.h" />
@@ -143,6 +145,7 @@
     <ClCompile Include="game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="maze.cpp" />
+    <ClCompile Include="memorymanager.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="room.cpp" />
     <ClCompile Include="shark.cpp" />

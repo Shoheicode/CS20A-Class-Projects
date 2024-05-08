@@ -398,7 +398,7 @@ Item DLList<Item>::peek(int idx) const {
 	// exceptions, since we haven't covered that yet
 	// we'll make due with assert, which is used for testing
 	//assert(idx >= 0 && idx < count);
-	std::cout << "RUNNING PEEK" << std::endl;
+	//std::cout << "RUNNING PEEK" << std::endl;
 	/*   TODO   */
 	int i = 0;
 	Node* temp = head;
@@ -406,7 +406,8 @@ Item DLList<Item>::peek(int idx) const {
 		temp = temp->nxt();
 		i++;
 		if (temp == nullptr) {
-			return NULL;
+			Item a = {};
+			return a;
 		}
 	}
 
