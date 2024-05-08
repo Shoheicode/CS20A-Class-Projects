@@ -1,7 +1,7 @@
 // DEFINE YOUR RUN
 #define RUN00
 
-#ifdef RUN00
+#ifdef RUN01
 #include"studentinfo.h"
 #include<string>
 using std::string;

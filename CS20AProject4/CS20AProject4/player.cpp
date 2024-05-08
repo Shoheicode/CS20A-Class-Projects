@@ -105,6 +105,7 @@ void Player::update() {
 
 	/*   TODO   */
 
+
 	if (BACKTRACKENABLED) {
 		// Set by the settings file, if BACKTRACKENABLED is false, then
 		// your program should behave exactly as seen in the slides or
@@ -112,6 +113,9 @@ void Player::update() {
 		// You may have multiple branching statements like this.
 		// if(BACKTRACKENABLED) { ... code relating to backtracking 
 
+	}
+	else {
+		if()
 	}
 
 

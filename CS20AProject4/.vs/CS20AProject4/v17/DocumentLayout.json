@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\dllist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\dllist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\debugmem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\debugmem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\stack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\maze.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -35,20 +47,12 @@
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\maze.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|solutionrelative:CS20AProject4\\player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D3431C3-640A-44B0-8D32-E857A7F57ED9}|CS20AProject4\\CS20AProject4.vcxproj|C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\shark.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -62,11 +66,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "game.cpp",
+              "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\game.cpp",
+              "RelativeDocumentMoniker": "CS20AProject4\\game.cpp",
+              "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\game.cpp",
+              "RelativeToolTip": "CS20AProject4\\game.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T21:29:55.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "debugmem.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\debugmem.h",
               "RelativeDocumentMoniker": "CS20AProject4\\debugmem.h",
@@ -74,25 +91,24 @@
               "RelativeToolTip": "CS20AProject4\\debugmem.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T22:44:05.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T22:44:05.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "dllist.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\dllist.h",
               "RelativeDocumentMoniker": "CS20AProject4\\dllist.h",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\dllist.h",
               "RelativeToolTip": "CS20AProject4\\dllist.h",
-              "ViewState": "AQIAAI0AAAAAAAAAAAAAAJsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-02T22:43:07.53Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "entity.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\entity.h",
               "RelativeDocumentMoniker": "CS20AProject4\\entity.h",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "entity.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\entity.cpp",
               "RelativeDocumentMoniker": "CS20AProject4\\entity.cpp",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "room.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\room.cpp",
               "RelativeDocumentMoniker": "CS20AProject4\\room.cpp",
@@ -128,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "maze.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\maze.h",
               "RelativeDocumentMoniker": "CS20AProject4\\maze.h",
@@ -140,44 +156,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "player.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.h",
               "RelativeDocumentMoniker": "CS20AProject4\\player.h",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.h",
               "RelativeToolTip": "CS20AProject4\\player.h",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T22:37:37.58Z"
+              "WhenOpened": "2024-05-02T22:37:37.58Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "player.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.cpp",
               "RelativeDocumentMoniker": "CS20AProject4\\player.cpp",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\player.cpp",
               "RelativeToolTip": "CS20AProject4\\player.cpp",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAHUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T22:37:29.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "queue.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\queue.h",
               "RelativeDocumentMoniker": "CS20AProject4\\queue.h",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\queue.h",
               "RelativeToolTip": "CS20AProject4\\queue.h",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAqwEoAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEoAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T22:30:14.176Z"
+              "WhenOpened": "2024-05-02T22:30:14.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "stack.h",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\stack.h",
               "RelativeDocumentMoniker": "CS20AProject4\\stack.h",
@@ -185,12 +203,11 @@
               "RelativeToolTip": "CS20AProject4\\stack.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-02T20:15:45.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T20:15:45.039Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "shark.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\shark.cpp",
               "RelativeDocumentMoniker": "CS20AProject4\\shark.cpp",
@@ -202,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "maze.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\maze.cpp",
               "RelativeDocumentMoniker": "CS20AProject4\\maze.cpp",
@@ -214,15 +231,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\main.cpp",
               "RelativeDocumentMoniker": "CS20AProject4\\main.cpp",
               "ToolTip": "C:\\Users\\jsiri\\CS20A-Class-Projects\\CS20AProject4\\CS20AProject4\\main.cpp",
               "RelativeToolTip": "CS20AProject4\\main.cpp",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAAcAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-02T20:14:06.603Z"
+              "WhenOpened": "2024-05-02T20:14:06.603Z",
+              "EditorCaption": ""
             }
           ]
         }
