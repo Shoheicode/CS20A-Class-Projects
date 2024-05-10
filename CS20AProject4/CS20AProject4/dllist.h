@@ -216,7 +216,7 @@ DLList<Item>::~DLList() {
 		tempNode = tempNode->nxt();
 		delete bye;
 	}
-	GETMEMORYREPORT();
+	//GETMEMORYREPORT();
 }
 
 /* DLList print
@@ -277,7 +277,7 @@ void DLList<Item>::add_front(const Item &itm) {
 		count++;
 	}
 
-	GETMEMORYREPORT();
+	//GETMEMORYREPORT();
 }
 
 /* DLList add_rear

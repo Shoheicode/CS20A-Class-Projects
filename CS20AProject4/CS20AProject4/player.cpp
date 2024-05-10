@@ -111,11 +111,99 @@ void Player::update() {
 		// your program should behave exactly as seen in the slides or
 		// example executables (with teleporting).
 		// You may have multiple branching statements like this.
-		// if(BACKTRACKENABLED) { ... code relating to backtracking 
+		// if(BACKTRACKENABLED) { ... code relating to backtracking
 
+		if (m_lookingPaper.empty()) {
+			state(State::NOEXIT);
+			say();
+			//return;
+		}
+		else {
+			//room = m_lookingPaper.peek();
+			if (!room().adjacent(m_lookingPaper.peek()) && !m_btStack.empty()) {
+				move(m_btStack.peek());
+				state(State::BACKTRACK);
+				m_btStack.pop();
+				return;
+			}
+			else {
+				state(State::LOOK);
+				move(m_lookingPaper.peek());
+				m_btStack.push(m_lookingPaper.peek());
+				m_lookingPaper.pop();
+			}
+		}
+
+		if (maze()->foundExit(room())) {
+			state(State::EXIT);
+			say();
+			return;
+		}
+		else {
+
+			Room temp(room().x() - 1, room().y());
+			if (maze()->open(temp) && m_discoveredRooms.search(temp) == -42) {
+				m_discoveredRooms.add_rear(temp);
+				m_lookingPaper.push(temp);
+			}
+			Room temp1(room().x() + 1, room().y());
+			if (maze()->open(temp1) && m_discoveredRooms.search(temp1) == -42) {
+				m_discoveredRooms.add_rear(temp1);
+				m_lookingPaper.push(temp1);
+			}
+			Room temp2(room().x(), room().y() - 1);
+			if (maze()->open(temp2) && m_discoveredRooms.search(temp2) == -42) {
+				m_discoveredRooms.add_rear(temp2);
+				m_lookingPaper.push(temp2);
+			}
+			Room temp3(room().x(), room().y() + 1);
+			if (maze()->open(temp3) && m_discoveredRooms.search(temp3) == -42) {
+				m_discoveredRooms.add_rear(temp3);
+				m_lookingPaper.push(temp3);
+			}
+		}
 	}
 	else {
-		if()
+
+		if (m_lookingPaper.empty()) {
+			state(State::NOEXIT);
+			say();
+		}
+		else {
+			state(State::LOOK);
+			move(m_lookingPaper.peek());
+			m_lookingPaper.pop();
+		}
+
+		if (maze()->foundExit(room())) {
+			state(State::EXIT);
+			say();
+			return;
+		}
+		else {
+
+			Room temp(room().x() - 1, room().y());
+			if (maze()->open(temp) && m_discoveredRooms.search(temp) == -42) {
+				m_discoveredRooms.add_rear(temp);
+				m_lookingPaper.push(temp);
+			}
+			Room temp1(room().x() + 1, room().y());
+			if (maze()->open(temp1) && m_discoveredRooms.search(temp1) == -42) {
+ 				m_discoveredRooms.add_rear(temp1);
+				m_lookingPaper.push(temp1);
+			}
+			Room temp2(room().x(), room().y() - 1);
+			if (maze()->open(temp2) && m_discoveredRooms.search(temp2) == -42) {
+				m_discoveredRooms.add_rear(temp2);
+				m_lookingPaper.push(temp2);
+			}
+			Room temp3(room().x(), room().y() + 1);
+			if (maze()->open(temp3) && m_discoveredRooms.search(temp3) == -42) {
+				m_discoveredRooms.add_rear(temp3);
+				m_lookingPaper.push(temp3);
+			}
+		}
+
 	}
 
 
