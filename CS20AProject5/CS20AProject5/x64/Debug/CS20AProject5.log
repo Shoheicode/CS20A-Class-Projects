@@ -1,0 +1,20 @@
+﻿  main.cpp
+  tests.cpp
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(90,17): warning C4267: 'argument': conversion from 'size_t' to 'Type', possible loss of data
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(90,17): warning C4267:         with
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(90,17): warning C4267:         [
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(90,17): warning C4267:             Type=int
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(90,17): warning C4267:         ]
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(210,15): warning C4267: 'argument': conversion from 'size_t' to 'Type', possible loss of data
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(210,15): warning C4267:         with
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(210,15): warning C4267:         [
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(210,15): warning C4267:             Type=int
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(210,15): warning C4267:         ]
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(242,9): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(268,9): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(281,22): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(292,15): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(302,15): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\CS20AProject5\tests.cpp(312,15): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  Generating Code...
+  CS20AProject5.vcxproj -> C:\Users\jsiri\CS20A-Class-Projects\CS20AProject5\x64\Debug\CS20AProject5.exe
